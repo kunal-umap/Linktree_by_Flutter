@@ -5,12 +5,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Column(
-          children: [Text('tHIS iS aPp')],
-        ),
-      ),
-    );
+    return const Placeholder();
   }
 }
