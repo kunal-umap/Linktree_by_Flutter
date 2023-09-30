@@ -38,12 +38,14 @@ class LoginPage extends StatelessWidget {
       ),
       body: const Column(
         children: [
-          Padding(
-            padding: EdgeInsets.fromLTRB(100, 125, 100, 0),
-            child: Image(
-              image: AssetImage('assets/images/linktree.webp'),
-              width: 200,
-              height: 200,
+          Center(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(100, 125, 100, 0),
+              child: Image(
+                image: AssetImage('assets/images/linktree.webp'),
+                width: 200,
+                height: 200,
+              ),
             ),
           ),
           Text(
