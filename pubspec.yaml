@@ -63,6 +63,12 @@ flutter:
     - assets/images/Google__G__Logo.svg.webp
     - assets/images/ZMv3Gnt.jpg
     - assets/images/linktree.webp
+    - assets/images/linkedin-logo-linkedin-icon-transparent-free-png.webp
+    - assets/images/580b57fcd9996e24bc43c521.png
+    - assets/images/GitHub-PNG-Isolated-Photo.png
+    - assets/images/580b57fcd9996e24bc43c53e.png
+    - assets/images/LeetCode_Logo_1.png
+    - assets/images/youtube-logo-png-photo-0.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
