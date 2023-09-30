@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: Padding(
-        padding: const EdgeInsets.all(86),
+        padding: const EdgeInsets.all(50),
         child: SizedBox(
           width: 250,
           child: FloatingActionButton.extended(
@@ -39,7 +39,7 @@ class LoginPage extends StatelessWidget {
       body: const Column(
         children: [
           Padding(
-            padding: EdgeInsets.fromLTRB(100, 240, 100, 0),
+            padding: EdgeInsets.fromLTRB(100, 125, 100, 0),
             child: Image(
               image: AssetImage('assets/images/linktree.webp'),
               width: 200,
