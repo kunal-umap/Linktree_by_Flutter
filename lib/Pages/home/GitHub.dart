@@ -21,11 +21,14 @@ class GitHub extends StatelessWidget {
           onPressed: () {},
           child:
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-            Image.asset(
-              "assets/images/GitHub-PNG-Isolated-Photo.png",
-              width: 50,
-              height: 50,
-              color: Colors.white,
+            CircleAvatar(
+              backgroundColor: Colors.transparent,
+              child: Image.asset(
+                "assets/images/GitHub-PNG-Isolated-Photo.png",
+                width: 50,
+                height: 50,
+                color: Colors.white,
+              ),
             ),
             const Text(
               "GitHub",

@@ -22,11 +22,14 @@ class Twitter extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Image.asset(
-                "assets/images/580b57fcd9996e24bc43c53e.png",
-                width: 40,
-                height: 40,
-                color: Colors.white,
+              CircleAvatar(
+                backgroundColor: Colors.transparent,
+                child: Image.asset(
+                  "assets/images/580b57fcd9996e24bc43c53e.png",
+                  width: 40,
+                  height: 40,
+                  color: Colors.white,
+                ),
               ),
               const Text(
                 "Twitter",

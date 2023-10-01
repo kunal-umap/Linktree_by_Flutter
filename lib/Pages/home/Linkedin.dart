@@ -18,10 +18,13 @@ class Linkedin extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Image.asset(
-                "assets/images/linkedin-logo-linkedin-icon-transparent-free-png.webp",
-                width: 60,
-                height: 60,
+              CircleAvatar(
+                backgroundColor: Colors.transparent,
+                child: Image.asset(
+                  "assets/images/linkedin-logo-linkedin-icon-transparent-free-png.webp",
+                  width: 60,
+                  height: 60,
+                ),
               ),
               const Text(
                 "Linkedln",

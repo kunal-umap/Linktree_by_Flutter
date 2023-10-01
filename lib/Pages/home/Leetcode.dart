@@ -22,10 +22,13 @@ class Leetcode extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Image.asset(
-                "assets/images/LeetCode_Logo_1.png",
-                width: 40,
-                height: 40,
+              CircleAvatar(
+                backgroundColor: Colors.transparent,
+                child: Image.asset(
+                  "assets/images/LeetCode_Logo_1.png",
+                  width: 40,
+                  height: 40,
+                ),
               ),
               const Text(
                 "LeetCode",

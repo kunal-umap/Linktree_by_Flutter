@@ -35,10 +35,13 @@ class Instagram extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Image.asset(
-                  "assets/images/580b57fcd9996e24bc43c521.png",
-                  width: 40,
-                  height: 40,
+                CircleAvatar(
+                  backgroundColor: Colors.transparent,
+                  child: Image.asset(
+                    "assets/images/580b57fcd9996e24bc43c521.png",
+                    width: 40,
+                    height: 40,
+                  ),
                 ),
                 const Text(
                   "Instagram",

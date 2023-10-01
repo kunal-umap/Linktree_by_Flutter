@@ -22,10 +22,13 @@ class Facebook extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Image.asset(
-                "assets/images/photos-facebook-logo-png-transparent-background-13.png",
-                width: 50,
-                height: 50,
+              CircleAvatar(
+                backgroundColor: Colors.transparent,
+                child: Image.asset(
+                  "assets/images/photos-facebook-logo-png-transparent-background-13.png",
+                  width: 50,
+                  height: 50,
+                ),
               ),
               const Text(
                 "Facebook",

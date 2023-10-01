@@ -22,10 +22,13 @@ class Youtube extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Image.asset(
-                "assets/images/youtube-logo-png-photo-0.png",
-                width: 60,
-                height: 60,
+              CircleAvatar(
+                backgroundColor: Colors.transparent,
+                child: Image.asset(
+                  "assets/images/youtube-logo-png-photo-0.png",
+                  width: 60,
+                  height: 60,
+                ),
               ),
               const Text(
                 "Youtube",
