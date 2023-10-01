@@ -71,6 +71,10 @@ flutter:
     - assets/images/580b57fcd9996e24bc43c53e.png
     - assets/images/LeetCode_Logo_1.png
     - assets/images/youtube-logo-png-photo-0.png
+    - assets/images/photos-facebook-logo-png-transparent-background-13.png
+    - assets/images/b4091b0b1e323457717f118103607a25.jpg
+    - assets/images/16f533be82bbc108034ba91d183ab91d.jpg
+    - assets/images/f454f75292f93e2b6c66846a857edf44.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

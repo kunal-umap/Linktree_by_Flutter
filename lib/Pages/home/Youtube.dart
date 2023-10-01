@@ -21,14 +21,13 @@ class Youtube extends StatelessWidget {
           onPressed: () {},
           icon: Image.asset(
             "assets/images/youtube-logo-png-photo-0.png",
-            width: 80,
-            height: 100,
+            width: 60,
+            height: 60,
           ),
           label: const Text(
             "Youtube",
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
               color: Colors.black,
             ),
           ),
