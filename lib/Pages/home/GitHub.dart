@@ -29,7 +29,6 @@ class GitHub extends StatelessWidget {
             "GitHub",
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
               color: Colors.black,
             ),
           ),

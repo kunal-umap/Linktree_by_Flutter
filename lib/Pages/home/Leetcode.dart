@@ -15,7 +15,7 @@ class Leetcode extends StatelessWidget {
         child: ElevatedButton.icon(
           style: const ButtonStyle(
             backgroundColor: MaterialStatePropertyAll(
-              Color.fromRGBO(255, 162, 15, 1),
+              Color.fromRGBO(170, 116, 31, 1),
             ),
           ),
           onPressed: () {},
@@ -28,7 +28,6 @@ class Leetcode extends StatelessWidget {
             "LeetCode",
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
               color: Colors.black,
             ),
           ),

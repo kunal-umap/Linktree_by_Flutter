@@ -28,7 +28,6 @@ class Instagram extends StatelessWidget {
             "Instagram",
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
               color: Colors.black,
             ),
           ),
