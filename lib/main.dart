@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-//import 'package:linktree_manager/Pages/Login/login.dart';
-import 'package:linktree_manager/Pages/home/home.dart';
+import 'package:linktree_manager/Pages/Login/login.dart';
+// import 'package:linktree_manager/Pages/home/home.dart';
 
 void main() {
   runApp(const LinkTreeManager());
@@ -14,7 +14,7 @@ class LinkTreeManager extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark(useMaterial3: true),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }

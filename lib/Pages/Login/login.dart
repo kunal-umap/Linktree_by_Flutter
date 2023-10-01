@@ -1,7 +1,26 @@
 import 'package:flutter/material.dart';
+// import 'package:linktree_manager/Auth/auth_serviece.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+  const LoginPage({
+    super.key,
+  });
+  signInWithGoogle() async {
+    // Sign Process
+    final GoogleSignInAccount? gUser = await GoogleSignIn().signIn();
+    //  Authentication details
+    final GoogleSignInAuthentication gAuth = await gUser!.authentication;
+    // Create New Credential
+    final credential = GoogleAuthProvider.credential(
+      accessToken: gAuth.accessToken,
+      idToken: gAuth.idToken,
+    );
+
+    // Sign IN
+    return await FirebaseAuth.instance.signInWithCredential(credential);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +40,10 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             elevation: 0,
-            onPressed: () {},
+            onPressed: () {
+              print("object");
+              signInWithGoogle();
+            },
             label: const Text(
               "Sign in with Google",
               style: TextStyle(
