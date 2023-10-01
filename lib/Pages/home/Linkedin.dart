@@ -11,6 +11,7 @@ class Linkedin extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       child: SizedBox(
         width: 600,
+        height: 60,
         child: ElevatedButton(
           style: const ButtonStyle(
               backgroundColor: MaterialStatePropertyAll(Colors.blue)),
