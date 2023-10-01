@@ -12,24 +12,29 @@ class Youtube extends StatelessWidget {
       child: SizedBox(
         width: 600,
         height: 57,
-        child: ElevatedButton.icon(
+        child: ElevatedButton(
           style: const ButtonStyle(
             backgroundColor: MaterialStatePropertyAll(
               Color.fromRGBO(179, 34, 34, 1),
             ),
           ),
           onPressed: () {},
-          icon: Image.asset(
-            "assets/images/youtube-logo-png-photo-0.png",
-            width: 60,
-            height: 60,
-          ),
-          label: const Text(
-            "Youtube",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.black,
-            ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Image.asset(
+                "assets/images/youtube-logo-png-photo-0.png",
+                width: 60,
+                height: 60,
+              ),
+              const Text(
+                "Youtube",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                ),
+              ),
+            ],
           ),
         ),
       ),

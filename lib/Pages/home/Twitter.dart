@@ -12,25 +12,30 @@ class Twitter extends StatelessWidget {
       child: SizedBox(
         width: 600,
         height: 57,
-        child: ElevatedButton.icon(
+        child: ElevatedButton(
           style: const ButtonStyle(
             backgroundColor: MaterialStatePropertyAll(
               Color.fromRGBO(13, 165, 231, 1),
             ),
           ),
           onPressed: () {},
-          icon: Image.asset(
-            "assets/images/580b57fcd9996e24bc43c53e.png",
-            width: 40,
-            height: 40,
-            color: Colors.white,
-          ),
-          label: const Text(
-            "Twitter",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.black,
-            ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Image.asset(
+                "assets/images/580b57fcd9996e24bc43c53e.png",
+                width: 40,
+                height: 40,
+                color: Colors.white,
+              ),
+              const Text(
+                "Twitter",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                ),
+              ),
+            ],
           ),
         ),
       ),

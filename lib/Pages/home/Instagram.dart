@@ -25,24 +25,29 @@ class Instagram extends StatelessWidget {
                 ],
                 // #f9ce34, #ee2a7b and #6228d7
               )),
-          child: ElevatedButton.icon(
+          child: ElevatedButton(
             style: const ButtonStyle(
               backgroundColor: MaterialStatePropertyAll(
                 Color.fromRGBO(0, 0, 0, 0),
               ),
             ),
             onPressed: () {},
-            icon: Image.asset(
-              "assets/images/580b57fcd9996e24bc43c521.png",
-              width: 40,
-              height: 40,
-            ),
-            label: const Text(
-              "Instagram",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.black,
-              ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Image.asset(
+                  "assets/images/580b57fcd9996e24bc43c521.png",
+                  width: 40,
+                  height: 40,
+                ),
+                const Text(
+                  "Instagram",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
+              ],
             ),
           ),
         ),

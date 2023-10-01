@@ -11,21 +11,26 @@ class Linkedin extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       child: SizedBox(
         width: 600,
-        child: ElevatedButton.icon(
+        child: ElevatedButton(
           style: const ButtonStyle(
               backgroundColor: MaterialStatePropertyAll(Colors.blue)),
           onPressed: () {},
-          icon: Image.asset(
-            "assets/images/linkedin-logo-linkedin-icon-transparent-free-png.webp",
-            width: 60,
-            height: 60,
-          ),
-          label: const Text(
-            "Linkedln",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.black,
-            ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Image.asset(
+                "assets/images/linkedin-logo-linkedin-icon-transparent-free-png.webp",
+                width: 60,
+                height: 60,
+              ),
+              const Text(
+                "Linkedln",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                ),
+              ),
+            ],
           ),
         ),
       ),
