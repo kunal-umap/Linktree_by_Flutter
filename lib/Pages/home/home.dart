@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:linktree_manager/Pages/home/Facebook.dart';
-import 'package:linktree_manager/Pages/home/GitHub.dart';
-import 'package:linktree_manager/Pages/home/Instagram.dart';
-import 'package:linktree_manager/Pages/home/Leetcode.dart';
-import 'package:linktree_manager/Pages/home/Linkedin.dart';
-import 'package:linktree_manager/Pages/home/Twitter.dart';
-import 'package:linktree_manager/Pages/home/Youtube.dart';
+import 'package:linktree_manager/Pages/home/facebook.dart';
+import 'package:linktree_manager/Pages/home/gitHub.dart';
+import 'package:linktree_manager/Pages/home/instagram.dart';
+import 'package:linktree_manager/Pages/home/leetcode.dart';
+import 'package:linktree_manager/Pages/home/linkedin.dart';
+import 'package:linktree_manager/Pages/home/twitter.dart';
+import 'package:linktree_manager/Pages/home/youtube.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

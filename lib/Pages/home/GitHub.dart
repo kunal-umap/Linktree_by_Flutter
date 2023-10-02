@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class gitHub extends StatelessWidget {
-  const gitHub({
+class GitHub extends StatelessWidget {
+  const GitHub({
     super.key,
   });
 

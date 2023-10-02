@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class linkedin extends StatelessWidget {
-  const linkedin({
+class Linkedin extends StatelessWidget {
+  const Linkedin({
     super.key,
   });
 

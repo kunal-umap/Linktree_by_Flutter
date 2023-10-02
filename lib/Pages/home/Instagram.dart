@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class instagram extends StatelessWidget {
-  const instagram({
+class Instagram extends StatelessWidget {
+  const Instagram({
     super.key,
   });
 
