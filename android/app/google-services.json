@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "11309361150",
-    "project_id": "linktreemanager-a2c7d",
-    "storage_bucket": "linktreemanager-a2c7d.appspot.com"
+    "project_number": "998935281684",
+    "project_id": "linktree-66f43",
+    "storage_bucket": "linktree-66f43.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:11309361150:android:80711e967bf7ceac7342af",
+        "mobilesdk_app_id": "1:998935281684:android:9ee44a6aad60d7020ea701",
         "android_client_info": {
           "package_name": "com.example.linktree_manager"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "11309361150-b1c2vi6b8u4dmisupd3rb15gujuioaj5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBjKXi1CE9J1gWqZ3cP-kQqqElQf0L3H3I"
+          "current_key": "AIzaSyBVAb3_cgiFbR6b-N9Sd1B7YijPYyqL-wE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "11309361150-b1c2vi6b8u4dmisupd3rb15gujuioaj5.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

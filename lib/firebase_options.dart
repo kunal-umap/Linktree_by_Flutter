@@ -44,40 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDGjDK-QOQWE3voZtH4fEMu5_wVTnutV_g',
-    appId: '1:11309361150:web:6393fa3d48289e507342af',
-    messagingSenderId: '11309361150',
-    projectId: 'linktreemanager-a2c7d',
-    authDomain: 'linktreemanager-a2c7d.firebaseapp.com',
-    storageBucket: 'linktreemanager-a2c7d.appspot.com',
-    measurementId: 'G-39SBTDZXZ3',
+    apiKey: 'AIzaSyBAyPEown5_wvF2vcPJqVCiy6oRrK1_0k8',
+    appId: '1:998935281684:web:c8a3c61b817c76f50ea701',
+    messagingSenderId: '998935281684',
+    projectId: 'linktree-66f43',
+    authDomain: 'linktree-66f43.firebaseapp.com',
+    storageBucket: 'linktree-66f43.appspot.com',
+    measurementId: 'G-LG99L1LBHR',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBjKXi1CE9J1gWqZ3cP-kQqqElQf0L3H3I',
-    appId: '1:11309361150:android:80711e967bf7ceac7342af',
-    messagingSenderId: '11309361150',
-    projectId: 'linktreemanager-a2c7d',
-    storageBucket: 'linktreemanager-a2c7d.appspot.com',
+    apiKey: 'AIzaSyBVAb3_cgiFbR6b-N9Sd1B7YijPYyqL-wE',
+    appId: '1:998935281684:android:9ee44a6aad60d7020ea701',
+    messagingSenderId: '998935281684',
+    projectId: 'linktree-66f43',
+    storageBucket: 'linktree-66f43.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDnrmiWKLeaf2CS-lMUJ_npTPV4VF1_HQM',
-    appId: '1:11309361150:ios:da938b715fe4aa337342af',
-    messagingSenderId: '11309361150',
-    projectId: 'linktreemanager-a2c7d',
-    storageBucket: 'linktreemanager-a2c7d.appspot.com',
-    iosClientId: '11309361150-eealmfjocrc4ngokio4ujf3hqtok5j45.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBVwZ2EOmF08SctvbDA52cv81yF7mZiqaU',
+    appId: '1:998935281684:ios:2c584113f1309d910ea701',
+    messagingSenderId: '998935281684',
+    projectId: 'linktree-66f43',
+    storageBucket: 'linktree-66f43.appspot.com',
     iosBundleId: 'com.example.linktreeManager',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDnrmiWKLeaf2CS-lMUJ_npTPV4VF1_HQM',
-    appId: '1:11309361150:ios:f65eb67209bba3d57342af',
-    messagingSenderId: '11309361150',
-    projectId: 'linktreemanager-a2c7d',
-    storageBucket: 'linktreemanager-a2c7d.appspot.com',
-    iosClientId: '11309361150-o78b2rfqnhjd907nq293ag31q94i64ak.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBVwZ2EOmF08SctvbDA52cv81yF7mZiqaU',
+    appId: '1:998935281684:ios:d5604f1c8022e4870ea701',
+    messagingSenderId: '998935281684',
+    projectId: 'linktree-66f43',
+    storageBucket: 'linktree-66f43.appspot.com',
     iosBundleId: 'com.example.linktreeManager.RunnerTests',
   );
 }

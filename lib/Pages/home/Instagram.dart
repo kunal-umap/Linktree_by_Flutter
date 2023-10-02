@@ -14,17 +14,18 @@ class Instagram extends StatelessWidget {
         height: 60,
         child: Container(
           decoration: const BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(50)),
-              gradient: LinearGradient(
-                begin: Alignment.bottomLeft,
-                end: Alignment.topRight,
-                colors: [
-                  Color.fromARGB(255, 249, 206, 52),
-                  Color.fromARGB(255, 238, 42, 123),
-                  Color.fromARGB(255, 98, 40, 215)
-                ],
-                // #f9ce34, #ee2a7b and #6228d7
-              )),
+            borderRadius: BorderRadius.all(Radius.circular(50)),
+            gradient: LinearGradient(
+              begin: Alignment.bottomLeft,
+              end: Alignment.topRight,
+              colors: [
+                Color.fromARGB(255, 249, 206, 52),
+                Color.fromARGB(255, 238, 42, 123),
+                Color.fromARGB(255, 98, 40, 215)
+              ],
+              // #f9ce34, #ee2a7b and #6228d7
+            ),
+          ),
           child: ElevatedButton(
             style: const ButtonStyle(
               backgroundColor: MaterialStatePropertyAll(
