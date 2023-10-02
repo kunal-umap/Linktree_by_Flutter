@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Facebook extends StatelessWidget {
-  const Facebook({
+class facebook extends StatelessWidget {
+  const facebook({
     super.key,
   });
 

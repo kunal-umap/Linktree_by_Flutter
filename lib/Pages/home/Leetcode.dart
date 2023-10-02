@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Leetcode extends StatelessWidget {
-  const Leetcode({
+class leetcode extends StatelessWidget {
+  const leetcode({
     super.key,
   });
 

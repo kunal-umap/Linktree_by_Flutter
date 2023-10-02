@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Twitter extends StatelessWidget {
-  const Twitter({
+class twitter extends StatelessWidget {
+  const twitter({
     super.key,
   });
 

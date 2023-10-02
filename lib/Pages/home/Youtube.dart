@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Youtube extends StatelessWidget {
-  const Youtube({
+class youtube extends StatelessWidget {
+  const youtube({
     super.key,
   });
 
