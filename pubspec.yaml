@@ -77,6 +77,7 @@ flutter:
     - assets/images/b4091b0b1e323457717f118103607a25.jpg
     - assets/images/16f533be82bbc108034ba91d183ab91d.jpg
     - assets/images/f454f75292f93e2b6c66846a857edf44.jpg
+    - assets/images/4e091d12f70ae25bad9e51226087b82f.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
