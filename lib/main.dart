@@ -14,7 +14,7 @@ class LinkTreeManager extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark(useMaterial3: true),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

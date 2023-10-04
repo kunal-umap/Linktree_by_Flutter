@@ -12,6 +12,21 @@ class main_Pages extends StatelessWidget {
       required this.label,
       required this.color});
 
+  // ignore: non_constant_identifier_names
+  SelectedItem(BuildContext context, item) {
+    switch (item) {
+      case 0:
+        print("Add Link clicked");
+        break;
+      case 1:
+        print("Remove link clicked");
+        break;
+      case 2:
+        print("Remove bar clicked");
+        break;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -41,6 +56,41 @@ class main_Pages extends StatelessWidget {
                   fontSize: 20,
                   color: Colors.black,
                 ),
+              ),
+              PopupMenuButton(
+                color: const Color.fromARGB(255, 224, 218, 218),
+                itemBuilder: (context) => [
+                  const PopupMenuItem<int>(
+                    value: 0,
+                    child: Text(
+                      "Add Link",
+                      style: TextStyle(
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                  const PopupMenuItem<int>(
+                    value: 1,
+                    child: Text(
+                      "Remove link",
+                      style: TextStyle(
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                  const PopupMenuItem<int>(
+                    value: 2,
+                    child: Text(
+                      "Remove bar",
+                      style: TextStyle(
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                ],
+                onSelected: (item) {
+                  SelectedItem(context, item);
+                },
               ),
             ],
           ),
