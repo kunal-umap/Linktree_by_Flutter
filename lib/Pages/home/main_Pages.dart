@@ -99,32 +99,26 @@ class _main_PagesState extends State<main_Pages> {
                   color: Colors.black,
                 ),
               ),
-              Visibility(
-                visible: isVisible,
-                child: ConstrainedBox(
-                  constraints: BoxConstraints.tight(
-                    const Size(60, 60),
-                  ),
-                  child: popupManu,
-                ),
-              ),
               ConstrainedBox(
-                constraints: BoxConstraints.tight(
-                  const Size(60, 60),
-                ),
+                constraints: BoxConstraints.tight(const Size.fromRadius(25)),
                 child: MouseRegion(
-                  onEnter: (event) {
-                    setState(() {
-                      isVisible = !isVisible;
-                    });
-                  },
-                  onExit: (event) {
-                    setState(() {
-                      isVisible = !isVisible;
-                    });
-                  },
-                ),
-              )
+                    onEnter: (event) {
+                      setState(() {
+                        isVisible = !isVisible;
+                      });
+                    },
+                    onExit: (event) {
+                      setState(() {
+                        isVisible = !isVisible;
+                      });
+                    },
+                    onHover: (event) {
+                      setState(() {
+                        isVisible = !isVisible;
+                      });
+                    },
+                    child: isVisible ? popupManu : const SizedBox()),
+              ),
             ],
           ),
         ),
