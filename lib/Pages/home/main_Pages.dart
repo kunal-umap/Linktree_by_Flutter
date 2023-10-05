@@ -1,7 +1,4 @@
 // ignore_for_file: file_names
-
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable, camel_case_types
@@ -21,6 +18,7 @@ class main_Pages extends StatefulWidget {
 
 // ignore: camel_case_types
 class _main_PagesState extends State<main_Pages> {
+  bool isVisible = false;
   // ignore: non_constant_identifier_names
   SelectedItem(BuildContext context, item) {
     switch (item) {
@@ -38,7 +36,6 @@ class _main_PagesState extends State<main_Pages> {
 
   @override
   Widget build(BuildContext context) {
-    bool ispopupmenu = false;
     var popupManu = PopupMenuButton(
       color: const Color.fromARGB(255, 224, 218, 218),
       itemBuilder: (context) => [
@@ -78,7 +75,7 @@ class _main_PagesState extends State<main_Pages> {
       padding: const EdgeInsets.all(16),
       child: SizedBox(
         width: 600,
-        height: 60,
+        height: 70,
         child: ElevatedButton(
           style: ButtonStyle(
             backgroundColor: MaterialStatePropertyAll(widget.color),
@@ -102,20 +99,32 @@ class _main_PagesState extends State<main_Pages> {
                   color: Colors.black,
                 ),
               ),
-              MouseRegion(
-                cursor: SystemMouseCursors.alias,
-                onEnter: (event) {
-                  setState(() {
-                    ispopupmenu = true;
-                  });
-                },
-                onExit: (event) {
-                  setState(() {
-                    ispopupmenu = false;
-                  });
-                },
-                child: popupManu,
+              Visibility(
+                visible: isVisible,
+                child: ConstrainedBox(
+                  constraints: BoxConstraints.tight(
+                    const Size(60, 60),
+                  ),
+                  child: popupManu,
+                ),
               ),
+              ConstrainedBox(
+                constraints: BoxConstraints.tight(
+                  const Size(60, 60),
+                ),
+                child: MouseRegion(
+                  onEnter: (event) {
+                    setState(() {
+                      isVisible = !isVisible;
+                    });
+                  },
+                  onExit: (event) {
+                    setState(() {
+                      isVisible = !isVisible;
+                    });
+                  },
+                ),
+              )
             ],
           ),
         ),
