@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:linktree_manager/Pages/Login/login.dart';
-import 'package:linktree_manager/Pages/home/home.dart';
 
 void main() {
   runApp(const LinkTreeManager());
