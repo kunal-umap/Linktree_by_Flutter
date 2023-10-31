@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="google-signin-client_id" content="998935281684-3e732cjm0o66t4q923fodfc9d4i2oa7i.apps.googleusercontent.com" />
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -38,6 +38,24 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- Firebase Configuration -->
+    <script>
+      var firebaseConfig = {
+        apiKey: 'AIzaSyBAyPEown5_wvF2vcPJqVCiy6oRrK1_0k8',
+        appId: '1:998935281684:web:c8a3c61b817c76f50ea701',
+        messagingSenderId: '998935281684',
+        projectId: 'linktree-66f43',
+        authDomain: 'linktree-66f43.firebaseapp.com',
+        storageBucket: 'linktree-66f43.appspot.com',
+        measurementId: 'G-LG99L1LBHR',
+        databaseURL: "https://Linktree.firebaseio.com",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
 </head>
 <body>
   <script>
